@@ -2,11 +2,19 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 function Dashboard() {
   return (
     <Container>
+      <Button variant="contained" color="success">
+        Success
+      </Button>
 
+      <Button variant="outlined">Primary</Button>
+<Button variant="outlined" disabled>
+  Disabled
+</Button>
       {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
       <Row style={{ marginTop: 80, marginLeft: 150 }}>
         <Col xs={6} md={3}>

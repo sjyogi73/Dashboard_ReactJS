@@ -1,16 +1,9 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-import { Container,Row,Col } from 'react-bootstrap';
-
-
+import {Row,Col } from 'react-bootstrap';
 import Dashboard from './Component/Dashboard';
 import Topbar from './Component/Topbar';
 import Side from './Component/Side';
 
-const Item = styled(Paper)({
- 
-});
 
 function Contained() {
   return (
